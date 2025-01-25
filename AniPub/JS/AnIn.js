@@ -74,6 +74,7 @@ function VideoDisplay (Source) {
     
     data-setup="{}">
 <source src="${Source}" type="video/mp4">
+<source src="${Source}" type="video/webm">
 </video>`;
 
 
