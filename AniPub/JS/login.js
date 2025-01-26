@@ -5,7 +5,7 @@ function login() {
     
 userCredential.forEach((value)=>{
     if (value.email === User.value && value.passward === Pass.value) {
-        document.querySelector(".login-a").setAttribute("href","/Website/Home.html")
+        document.querySelector(".login-a").setAttribute("href","Home.html")
     
     }
     else {
