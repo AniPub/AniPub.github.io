@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url(/Website/image/Esdeath.jpg);
+    background-image: url(../image/Esdeath.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
