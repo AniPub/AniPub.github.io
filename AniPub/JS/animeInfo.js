@@ -1,34 +1,18 @@
-import {OP} from "./data/data.js"
-let html = '';
 
-let profile = document.querySelector(".main-body-div");
+export let ID = 0 || JSON.parse(localStorage.getItem("AnimeId"));
 
-OP.forEach((value,i) => {
- html +=  `
-
- 
-<a href="VideoTemp.html">
-<div class="profile-div">
-    <div class="profile" data-anime="${i}">
-    <div class="image-div">
-        <img class="poster" src="${value[0].ImagePath}" alt="">
-    </div>
-    <div class="title-div">
-        <p class="title">${value[0].Name}</p>
-    </div>
-    <div class="ratings-div">
-        <p></p>
-    </div>
-    
-</div>
-</div>
-</a>
-    `
-
-
-});
-profile.innerHTML = html;
+const Profile = document.querySelectorAll(".profile");
+Profile.forEach(value=>{
+    value.addEventListener('click',()=>{
+         ID = value.dataset.anime;
+        localStorage.setItem("AnimeId",JSON.stringify(ID));
+        setTimeout(() => {
+            window.location.href="VideoTemp.html"
+        }, 1000);
+    })
+})
 
 
 
-  
+
+
