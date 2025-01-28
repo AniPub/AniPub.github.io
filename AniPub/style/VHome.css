@@ -127,7 +127,7 @@ border-style: solid;
 .search-button {
     height: 38px;
     width: 35px;
-    background-image: url(/Website/icon/search.svg);
+    background-image: url(icon/search.svg);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
