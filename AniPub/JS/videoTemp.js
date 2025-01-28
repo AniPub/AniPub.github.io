@@ -15,7 +15,7 @@ Profile.forEach(value=>{
 
 
 Change(AnimeID)
-
+  document.title = OP[AnimeID][0].Name;
 function Change (AnimeID) {
 
     let Ref = JSON.parse(localStorage.getItem("Alu")) || false;
