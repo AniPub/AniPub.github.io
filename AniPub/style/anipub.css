@@ -135,6 +135,13 @@ p {
     right: -120px;
     border-radius: 15px;
 }
+.an-d button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 26px;
+}
 .fb-b {
     display: flex;
     align-items: center;
@@ -196,6 +203,7 @@ p {
         border: 1px solid blue;
         border-radius: 15px;
     }
+
     .An-div::after  ,  .An-div::before {
         border-radius: 10px;
         position: absolute;
