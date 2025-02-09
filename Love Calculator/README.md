@@ -1,0 +1,1 @@
+// This is one of my earliest code .This thing let's you know your love power .. The output isn't what's in your fate so if your love score/point it too low don't be sad I hope you fate will connect you both someday. please let me also know how is it hehe (>-<)
