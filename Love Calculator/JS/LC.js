@@ -20,8 +20,15 @@ function Calculate () {
             It's just a simple site which i made to pass my time ! {jul 21/24} and the predictions are not Real ! Just have fun ! Well if you are new or want to learn web developing or need any kind of help feel 
             free to contact me <a href="AboutMe.html" target="_blank"><button class="button-a"> About Me !</button></a>`
         }
-    }
+        else {
     document.querySelector(".Result").innerHTML = `Your Name : <span class="Your-name"> ${YourName} </span> & Her Name <span class="Her-name"> ${HerName} </span>... Your Love Score is ${Number}% `
+  }
+    }
+  else {
+    document.querySelector(".Result").innerHTML = `Your Name : <span class="Your-name"> ${YourName} </span> & Her Name <span class="Her-name"> ${HerName} </span>... Your Love Score is ${Number}% `
+  }
+  
+   
 }
 else {
     document.querySelector(".Result").innerHTML = `Your Name : <span class="Your-name"> ${YourName} </span> & Her Name <span class="Her-name"> ${HerName} </span>... Your Love Score is ${Number}% `
