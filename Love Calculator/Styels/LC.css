@@ -1,0 +1,200 @@
+button {
+    transition: all 0.15s;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text {
+    font-size: 25px;
+}
+.IMG-D {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nom-d {
+    display: flex;
+    width: 100%;
+    align-items: start;
+    justify-content: end;
+    margin-right: 10px;
+}
+.nomnom {
+    border-radius: 50%;
+    width: 170px;
+    object-fit: cover;
+    object-position: center;
+}
+.nom {
+    width: fit-content;
+    height: fit-content;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: rgba(68, 63, 63, 0.897);
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    display: flex;
+    align-items: center;
+}
+.nom-p {
+    font-size: 18px;
+    margin-left: 3px;
+}
+.c {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.button-c {
+    font-size: 16px;
+    padding: 6px 12px 6px 12px;
+    border-style : solid;
+    border-width: 1px;
+    border-radius: 20px;
+    color: white;
+ background-color: rgba(11, 69, 231, 0.856);
+ border-color: blue;
+ cursor: pointer;
+
+}
+.button-c:hover {
+    background-color: white;
+    color: blue;
+}
+.button-c:active {
+    opacity: 0.7;
+}
+.border-c::after {
+    border: 0;
+}
+
+.box {
+    
+    height: 100px;
+    display: flex;
+    width: fit-content;
+    border-style: solid;
+    border-width: 2px;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(14, 78, 197);
+    background-color: rgba(85, 221, 176, 0.801);
+}
+.Result {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.rd {
+     display: flex;
+    justify-content: center;
+}
+.Your-name {
+    color: rgb(226, 27, 27);
+}
+.Her-name {
+    color: rgb(132, 0, 255);
+}
+.Your-name , .Her-name {
+    font-weight: bold;
+}
+p {
+    font-size: 18px;
+}
+@media (max-width: 400px) {
+    .nomnom {
+    width: 100px;
+    }
+    .nom {
+        height: 150px;
+    }
+    .box {
+        width: 200px;
+    }
+}
+@media (min-width:401px) and (max-width:600px) {
+    .nomnom {
+    width: 130px;
+    }
+    .box {
+        width:fit-content;
+    }
+}
+.button-a {
+    padding : 2px 6px 2px 6px ;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: rgb(121, 109, 109);
+    border-width: 1px;
+    border-color: rgb(134, 117, 117) ;
+    cursor: pointer;
+    color: rgba(245, 245, 245, 0.884);
+}
+.button-a:hover {
+    background-color:  rgba(245, 245, 245, 0.884);
+    color: rgb(37, 37, 37);
+}
+.button-a:active {
+    opacity: 0.7;
+}
+.button::after {
+    border: 0;
+}
+.ending {
+
+    position: relative;
+     bottom: -55px;
+    display: flex;
+    justify-content: center;
+}
+.b-div {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    align-items: end;
+}
+.b-div button {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-right: 4px;
+    cursor: pointer;
+    padding: 2px 4px 2px 4px;
+}
+.button-fb {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+.button-fb:hover {
+    color: blue;
+    background-color: white;
+}
+.button-mail {
+    color: rgb(255, 238, 0);
+    background-color: red;
+    border-color: red;
+}
+.button-mail:hover {
+    color: red ;
+    background-color: white;
+}
+.button-git {
+    color: white;
+    background-color: grey;
+    border-color : grey;
+    margin-right: 0;
+}
+.button-git:hover {
+    color: rgb(65, 65, 65);
+    background-color: white;
+}
+.b-div button::after {
+    border: 0;
+}
+.b-div button:active {
+    opacity: 0.7;
+}
